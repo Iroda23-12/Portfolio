@@ -1,0 +1,10 @@
+.girlphoto{
+  margin-left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+    display: grid; 
+    gap: 10px; /* укажите нужное значение gap */
+}

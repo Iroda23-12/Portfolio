@@ -1,0 +1,10 @@
+.girlphoto{
+  margin-left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.biography.com/scientist/albert-einstein/1200px-Albert_Einstein_Head_of_the_Royal_Academy_of_Sciences.jpg");
+}
+.me{
+  
+}

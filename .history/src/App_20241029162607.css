@@ -1,0 +1,43 @@
+.App {
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f8f8f8;
+}
+.portfolio {
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.portfolio-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.portfolio-header h1 {
+  font-size: 2.5em;
+  margin-bottom: 0.2em;
+}
+
+.projects {
+  margin: 20px 0;
+}
+
+.project-card {
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+}
+
+.contact {
+  margin-top: 20px;
+  text-align: center;
+}

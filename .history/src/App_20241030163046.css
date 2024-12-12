@@ -1,0 +1,14 @@
+.girlphoto{
+  margin-left: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon{
+    display: flex; 
+    gap: 10px;
+}
+.me{
+  margin-left: 500px;
+  margin-top: 200px;
+}
