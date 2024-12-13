@@ -73,26 +73,26 @@ const Home = () => {
           </div>
         </div>
         <div className="avatar" >
-          <img src="girl1.png" alt="Avatar" className="avatar-image" />
+          <img src="./src/girl1.png" alt="Avatar" className="avatar-image" />
         </div>
       </div>
-        <div className="about">
-          <div className="about1">
-            <h1 style={{ fontFamily: 'sans-serif' }}>
-              <b> <FontAwesomeIcon icon={faUser} /></b> {t("About1")} <span style={{ color: 'purple' }}>{t("me")}</span>
-            </h1>
-            <br />
-            <div>
-              <p className="typing" style={{
-                width: '600px',
-                padding: '20px',
-                fontSize: '22px',
-              }}>
-                <b>{t("AboutMe")}</b>
-              </p>
-            </div>
+      <div className="about">
+        <div className="about1">
+          <h1 style={{ fontFamily: 'sans-serif' }}>
+            <b> <FontAwesomeIcon icon={faUser} /></b> {t("About1")} <span style={{ color: 'purple' }}>{t("me")}</span>
+          </h1>
+          <br />
+          <div>
+            <p className="typing" style={{
+              width: '600px',
+              padding: '20px',
+              fontSize: '22px',
+            }}>
+              <b>{t("AboutMe")}</b>
+            </p>
           </div>
         </div>
+      </div>
       <div className="skills" id="skills">
         <h1>
           <FontAwesomeIcon icon={faLaptopCode} />
